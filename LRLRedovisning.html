@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redovisningskonsult</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Välkommen till Redovisningskonsult AB</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Hem</a></li>
+                <li><a href="#services">Tjänster</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Hem</h2>
+        <p>Vi erbjuder professionella redovisningstjänster för små och medelstora företag.</p>
+    </section>
+
+    <section id="services">
+        <h2>Tjänster</h2>
+        <ul>
+            <li>Bokföring</li>
+            <li>Årsredovisningar</li>
+            <li>Skatterådgivning</li>
+            <li>Lönehantering</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form id="contactForm">
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Meddelande:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Skicka</button>
+        </form>
+        <p id="formResponse"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Redovisningskonsult AB</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
